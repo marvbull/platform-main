@@ -10,8 +10,9 @@ Special focus was placed on **real-time computing** and **closed-loop control** 
 
 ## 🎬 Demonstration Videos
 
-- ▶️ *First Attempt – Basic Tracking & Balancing*  
-- ✅ *Final Presentation – Real-Time Ball Balancing*
+- ▶️ **First Iteration**: (https://www.youtube.com/watch?v=eKMGxfKeExc)
+- ✅ **Final Presentation**: https://www.youtube.com/watch?v=GQNaFhVhSu0
+
 
 ## 📂 Repository Structure
 
