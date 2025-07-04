@@ -1,4 +1,4 @@
-# 🛠️ milestone-main
+# 🛠️ platform-main
 
 ## 📖 Project Overview
 
