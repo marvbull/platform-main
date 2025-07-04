@@ -1,4 +1,4 @@
-# 🛠️ platform-main
+# 🛠️ 3-DoF Stewart Platform
 
 ## 📖 Project Overview
 
