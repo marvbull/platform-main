@@ -2,39 +2,48 @@
 
 ## 📖 Project Overview
 
-This project involves the development of a **custom assembly station** for the **Baden-Wuerttemberg Cooperative State University (DHBW)**.  
-It includes both the **design of a promotional giveaway** and the creation of a dedicated **robot-based assembly system** to mount it efficiently.
+This project was developed for **MTE 380 at the University of Waterloo**.  
+It features a custom **3-DOF Stewart platform** designed to **automatically detect, center, and balance a ball** in real time.
 
-The system integrates a self-developed robotic arm and combines mechanical, electronic, and software components to form a complete, automated solution.
+The system combines **mechanical design**, **embedded control**, and **computer vision** into a fully integrated mechatronic solution.  
+Special focus was placed on **real-time computing** and **closed-loop control** using a **PID controller** for fast and stable balancing.
 
 ## 🎬 Demonstration Videos
 
-Below are videos demonstrating the functionality of the assembly station:
-
-- ▶️ [First Attempt – Basic Functionality Test](https://www.youtube.com/watch?v=XfHKRl_iYHc)  
-- ✅ [Final Presentation – Fully Working Setup](https://www.youtube.com/watch?v=XNof5O9abk8)
+- ▶️ *First Attempt – Basic Tracking & Balancing*  
+- ✅ *Final Presentation – Real-Time Ball Balancing*
 
 ## 📂 Repository Structure
 
-- `src/` – Core source code (C++, Python, Arduino)
-- `hardware/` – Circuit schematics (Altium)
-- `cad/` – Mechanical models and assemblies (Fusion360, Creo)
-- `docs/` – Technical documentation and risk assessment
+- `src/` – Core control code (C++, Arduino)  
+- `vision/` – Image processing and ball tracking (OpenCV)  
+- `cad/` – Mechanical models and drawings (Fusion360, Solidworks)  
+- `docs/` – System documentation, control design, and test results  
 - `README.md` – Project overview
 
 ## ⚙️ Technologies Used
 
-- **C++ / Python / Arduino** – Embedded and control programming  
-- **MATLAB** – Simulation and kinematic modeling  
-- **Raspberry Pi** – System coordination and I²C communication  
-- **Altium Designer** – PCB and electronics design  
-- **Siemens NX / Creo** – Mechanical design and CAD modeling  
-- **I²C** – Device communication between modules
+- **OpenCV (Python/C++)** – Ball detection and tracking  
+- **PID Controller** – Real-time feedback control for platform stabilization  
+- **C++ / Arduino** – Servo control and logic implementation  
+- **MATLAB** – System modeling and controller tuning  
+- **Solidworks** – Mechanical design  
+- **I²C or Serial** – Communication between vision and control units
+
+## 🧠 Control Strategy
+
+A **2-axis PID controller** (X and Y) was implemented to keep the ball centered on the platform.  
+The ball’s position is detected via computer vision, and the platform adjusts its tilt accordingly in real time.
+
+- Tuned manually based on system response  
+- Executed on microcontroller with fixed control loop  
+- Achieves fast reaction with minimal overshoot
 
 ## 🚀 Project Status
 
 ✅ **Completed**  
-All planned development milestones have been achieved. The system is fully implemented, tested, and documented.
+All components were developed, integrated, and tested.  
+The platform successfully performs **real-time ball tracking and balancing** using PID control.
 
 ## 📄 License
 
