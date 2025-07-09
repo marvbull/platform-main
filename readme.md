@@ -10,7 +10,7 @@ Special focus was placed on **real-time computing** and **closed-loop control** 
 
 ## 🎬 Demonstration Videos
 
-- ▶️ **First Iteration**: (https://www.youtube.com/watch?v=eKMGxfKeExc)
+- ▶️ **First Iteration**: https://www.youtube.com/watch?v=eKMGxfKeExc
 - ✅ **Final Presentation**: https://www.youtube.com/watch?v=GQNaFhVhSu0
 
 
